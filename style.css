@@ -1,0 +1,43 @@
+#main {
+    /* background-color:rgb(18, 220, 173); */
+    background: url("brick.jpg");
+    height: 97vh;
+    /* background-repeat: no-repeat; */
+}
+#clock {
+    position: relative;
+    top: 10%;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url("clock.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#hour, #minute, #second {
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour {
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+}
+#minute {
+    width: 1.5%;
+    height: 30%;
+    top: 20%;
+    left: 48.9%;
+    opacity: 0.8;
+}
+#second {
+    width: 1%;
+    height: 35%;
+    top: 15%;
+    left: 49.25%;
+    opacity: 0.8;
+}
